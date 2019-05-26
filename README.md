@@ -2,6 +2,20 @@
 
 Algorithm to solving the rook polynomial questions.
 
+# Demo
+
+![ScreenShot](screenshot1.png)
+
+# Step 1
+
+![ScreenShot](screenshot2.png)
+
+# Step 2
+
+![ScreenShot](screenshot3.png)
+
+![ScreenShot](screenshot4.png)
+
 
 ## What is Rook Polynomial?
 
