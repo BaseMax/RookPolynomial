@@ -82,10 +82,10 @@ inputSizeButton.addEventListener("click", function() {
 					}
 				}
 				else if(currentSection.classList.contains("section-rook")) {
-					boardItems.forEach(function(_column) {
-						_column.classList.remove("rook")
-					})
 					if(!this.classList.contains("disable")) {
+						boardItems.forEach(function(_column) {
+							_column.classList.remove("rook")
+						})
 						this.classList.add("rook")
 					}
 				}
