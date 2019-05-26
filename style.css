@@ -8,8 +8,12 @@
 * @Repository : https://github.com/BaseMax/RookPolynomial
 *
 **/
+* {
+	padding: 0px;
+	margin: 0px;
+}
 body {
-
+	display: ltr;
 }
 .section {
 	width: 100%;
@@ -18,6 +22,10 @@ body {
 	border-radius: 10px;
 	text-align: center;
 	padding: 25px;
+	display: none;
+}
+.section.active {
+	display: block;
 }
 .section .title {
 	font-size: 20px;
@@ -34,4 +42,35 @@ body {
 	border: 2px solid white;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+.board {
+	background-color: transparent;
+	width: 400px;
+	height: auto;
+	max-width: 100%;
+	padding-top: 14px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+.board .row {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.board .column {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	border: 2px solid black;
+	cursor: pointer;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.board .column.disable {
+	background-color: black;
+}
+.board .column.rook {
+	background-image: url("icon.jpg");
+	background-size: 100%;
 }
